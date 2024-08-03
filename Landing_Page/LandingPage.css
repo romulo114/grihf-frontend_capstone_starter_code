@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #163840;
+    background-color: #114B5F;
     padding: 20px 0;
 }
 
@@ -19,14 +19,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 0 50px;
     margin-left: 211px;
     margin-right: 211px;
-    margin-top: 74px;
 }
 
 .hero .hero-content {
     max-width: 600px;
+    width: 100%;
 }
 
 .hero h1 {
