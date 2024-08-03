@@ -15,7 +15,7 @@ header {
     padding: 20px 0;
 }
 
-.sign_up {
+.login {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,6 +32,16 @@ header {
 .form-container h1 {
     font-size: 45px;
     margin-bottom: 20px;
+}
+
+.form-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-container a {
+    color: #114B5F;
+    font-weight: bold;
 }
 
 .form-container label {
@@ -53,8 +63,7 @@ header {
 
 .button-container {
     display: flex;
-    justify-content: space-between;
-    margin: 36px;
+    justify-content: flex-end;
 }
 
 button {
@@ -65,27 +74,18 @@ button {
     border-radius: 20px;
 }
 
-button.reset {
-    background-color: #F45B69;
-    color: #E4FDE1;
-    border: 1px solid #F45B69;
-    transition: all ease 0.3s;
-}
-
-button.reset:hover {
-    background-color: #114B5F;
-    border: 1px solid #114B5F;
-}
-
 button.submit {
     background-color: #114B5F;
     color: #E4FDE1;
-    transition: all ease 0.3s;
+    text-transform: uppercase;
+    border: 1px solid #114B5F;
+    transition: all 0.3s ease-in-out;
 }
 
 button.submit:hover {
-    background-color: #F45B69;
-    color: #E4FDE1;
+    background-color: #E4FDE1;
+    color: #114B5F;
+    border: 1px solid #114B5F;
 }
 
 .image-container img {
